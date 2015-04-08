@@ -1,7 +1,7 @@
 # HighScores
 An example of storing and retrieving HighScores from Couchbase
 
-This was developed using Eclipse, Couchbase Java SDK 2.0.3, and Couchbase Server 3.0.2
+This was developed using Eclipse, Java 1.8, [Couchbase Java SDK 2.0.3](http://packages.couchbase.com/clients/java/2.0.3/Couchbase-Java-Client-2.0.3.zip), and Couchbase Server 3.0.2
 
 It assumes the existence of a bucket named "highscores", a design document named "highscoredd", and a published Production view named "highscoreview"
 
