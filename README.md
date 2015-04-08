@@ -24,3 +24,8 @@ Sample Output
     key:0078201_player1 value: {"score":78201,"playerName":"player1"}
     key:0078011_player9 value: {"score":78011,"playerName":"player9"}
 
+The view that is used looks like this:
+
+    function(doc, meta) {
+      emit(meta.id,doc);
+    }
