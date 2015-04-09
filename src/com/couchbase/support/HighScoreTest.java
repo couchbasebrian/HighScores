@@ -149,8 +149,8 @@ class HighScoreStore {
 	int lowestScore  = maxHighScore;
 	int highestScore = 0;
 	
-	public int getLowestScore()  { return lowestScore; };
-	public int getHighestScore() { return lowestScore; };
+	public int getLowestScore()  { return lowestScore;  };
+	public int getHighestScore() { return highestScore; };
 	
 	// constructor
 	public HighScoreStore(Bucket b) {
